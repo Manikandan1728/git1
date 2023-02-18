@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1676711048,,"wq!"
+|2,0,1676711496,,"wq!"
 :wq1!
 |2,0,1676711002,,"wq1!"
 :.!
@@ -29,22 +29,40 @@
 # Registers:
 
 # File marks:
-'0  2  5  ~/test
-|4,48,2,5,1676711048,"~/test"
-'1  1  14  ~/gtdir/test
-|4,49,1,14,1676662165,"~/gtdir/test"
-'2  1  0  ~/gtdir/test
-|4,50,1,0,1676661735,"~/gtdir/test"
+'0  5  16  ~/test
+|4,48,5,16,1676711496,"~/test"
+'1  2  5  ~/test
+|4,49,2,5,1676711048,"~/test"
+'2  2  5  ~/test
+|4,50,2,5,1676711048,"~/test"
+'3  1  14  ~/gtdir/test
+|4,51,1,14,1676662165,"~/gtdir/test"
+'4  1  0  ~/gtdir/test
+|4,52,1,0,1676661735,"~/gtdir/test"
 
 # Jumplist (newest first):
+-'  5  16  ~/test
+|4,39,5,16,1676711496,"~/test"
+-'  2  5  ~/test
+|4,39,2,5,1676711470,"~/test"
 -'  2  5  ~/test
 |4,39,2,5,1676711048,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1676710878,"~/test"
 -'  1  0  ~/test
 |4,39,1,0,1676710878,"~/test"
 -'  1  14  ~/gtdir/test
 |4,39,1,14,1676662165,"~/gtdir/test"
 -'  1  14  ~/gtdir/test
 |4,39,1,14,1676662165,"~/gtdir/test"
+-'  1  14  ~/gtdir/test
+|4,39,1,14,1676662165,"~/gtdir/test"
+-'  1  14  ~/gtdir/test
+|4,39,1,14,1676662165,"~/gtdir/test"
+-'  1  0  ~/gtdir/test
+|4,39,1,0,1676661735,"~/gtdir/test"
+-'  1  0  ~/gtdir/test
+|4,39,1,0,1676661735,"~/gtdir/test"
 -'  1  0  ~/gtdir/test
 |4,39,1,0,1676661735,"~/gtdir/test"
 -'  1  0  ~/gtdir/test
@@ -53,13 +71,15 @@
 # History of marks within files (newest to oldest):
 
 > ~/test
-	*	1676711042	0
-	"	2	5
-	^	2	6
-	.	2	6
+	*	1676711490	0
+	"	5	16
+	^	5	17
+	.	5	16
 	+	1	16
 	+	2	3
-	+	2	6
+	+	2	5
+	+	4	0
+	+	5	16
 
 > ~/gtdir/test
 	*	1676662165	0
