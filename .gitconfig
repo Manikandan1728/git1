@@ -1,0 +1,4 @@
+[user]
+	name = greens
+	mail = grens@gmail.com
+	email = greens@gmail.com:\n\ngit config --global user.name greens
